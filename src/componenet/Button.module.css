@@ -1,0 +1,31 @@
+.cantainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: auto; */
+
+}
+
+
+.button {
+  padding: 20px;
+  margin:5px 3px;
+  border: 2px solid black;
+  border-radius: 11px;
+  cursor: pointer;
+  width: 60px;
+  background-color: rgb(143, 190, 71);
+  box-shadow: 0 7px #999
+}
+
+
+.button:hover {
+  background-color: #ea4d4d
+}
+
+
+.button:active {
+  background-color: #a11616;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
